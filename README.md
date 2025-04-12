@@ -46,7 +46,8 @@ To get started with this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/appointment-booking-system.git
+   git clone https://github.com/warishkhan/Doctor-Appointment-Booking-System.git
+    
 
 2. **Navigate to the project directory**:
     cd appointment-booking-system
@@ -79,20 +80,21 @@ Use the Theme Toggle button in the top-right corner to switch between light and 
 Directory Structure
 
 /appointment-booking-system
-├── /components          # Reusable components (e.g., ThemeToggle, CalendarGrid, NotificationBell)
-│   ├── /CalendarGrid    # Displays the calendar and appointment slots
-│   ├── /ThemeToggle     # Allows users to toggle between dark and light modes
-│   └── /NotificationBell # Displays the notification bell for upcoming appointments
-├── /pages              # Next.js pages (e.g., Home, Doctor Details)
-│   ├── index.js        # Main page of the app
-│   └── /doctors/[name].js # Dynamic route for doctor details
-├── /redux              # Redux store and slices for state management
-│   ├── store.js         # Configures Redux store
-│   └── appointmentsSlice.js # Contains appointments and doctors data
-├── /public             # Static assets (e.g., images, fonts)
-├── /styles             # Global styles (e.g., Tailwind CSS configuration)
-├── /utils              # Helper functions (e.g., date formatting)
-└── /node_modules       # Project dependencies (managed by npm)
+
+    ├── /components          # Reusable components (e.g., ThemeToggle, CalendarGrid, NotificationBell)
+    │   ├── /CalendarGrid    # Displays the calendar and appointment slots
+    │   ├── /ThemeToggle     # Allows users to toggle between dark and light modes
+    │   └── /NotificationBell # Displays the notification bell for upcoming appointments
+    ├── /pages              # Next.js pages (e.g., Home, Doctor Details)
+    │   ├── index.js        # Main page of the app
+    │   └── /doctors/[name].js # Dynamic route for doctor details
+    ├── /redux              # Redux store and slices for state management
+    │   ├── store.js         # Configures Redux store
+    │   └── appointmentsSlice.js # Contains appointments and doctors data
+    ├── /public             # Static assets (e.g., images, fonts)
+    ├── /styles             # Global styles (e.g., Tailwind CSS configuration)
+    ├── /utils              # Helper functions (e.g., date formatting)
+    └── /node_modules       # Project dependencies (managed by npm)
 
 Components
 Home Page
