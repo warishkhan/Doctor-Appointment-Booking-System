@@ -80,6 +80,7 @@ Dark Mode
 Directory Structure
 
 /appointment-booking-system
+
     ├── /components          # Reusable components (e.g., ThemeToggle, CalendarGrid, NotificationBell)
     │   ├── /CalendarGrid    # Displays the calendar and appointment slots
     │   ├── /ThemeToggle     # Allows users to toggle between dark and light modes
